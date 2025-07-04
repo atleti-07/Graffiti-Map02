@@ -101,6 +101,22 @@ ul li {
     list-style: none;
  }
 
+.about h1 {
+  text-align: center;
+  font: bold;
+  margin-top: 50px;
+}
+
+.about h2 {
+  width: 1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: medium;
+}
+
+
+
 /*map*/
  .map-img {
   height: auto;
