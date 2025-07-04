@@ -150,6 +150,37 @@ img {
 .card-list {
   max-width: 350px;
   margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.card-list img {
+  display: block;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+/* ホバーで画像を少し拡大（任意） */
+.card-list:hover img {
+  transform: scale(1.05);
+}
+
+/* オーバーレイ追加 */
+.card-list::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* 初期は透明 */
+  transition: background-color 0.3s ease;
+}
+
+/* ホバー時に色を重ねる（例：黒の半透明） */
+.card-list:hover::after {
+  background-color: rgba(0, 0, 0, 0);
 }
 
 /*graffiti gallery*/
