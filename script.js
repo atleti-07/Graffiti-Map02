@@ -18,7 +18,7 @@
     {
       coords: [33.671284, 130.449649], 
       image: 'images/img003.png',
-      link: 'index.html',
+      link: 'graffiti01.html',
     },
     {
       coords: [33.669870, 130.449767], 
